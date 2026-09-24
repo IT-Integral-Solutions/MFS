@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Ilustración de Miami Experience: bolsas de compras, cámara de fotos y palmeras">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FDEBDD"/><stop offset="1" stop-color="#F7C9B8"/></linearGradient></defs>
+<rect width="1200" height="900" fill="url(#bg)"/>
+<circle cx="860" cy="250" r="170" fill="#F0544C" opacity=".9"/>
+<g fill="#0A1A4A" opacity=".9">
+<path d="M1010 900 C1004 760 980 640 930 540 l14-6 C996 634 1024 760 1030 900Z"/>
+<path d="M936 538 c70-40 160-30 214 20-70-14-140-12-206-4Z"/><path d="M936 538 c20-70 90-116 170-116-60 28-110 70-156 124Z"/><path d="M936 538 c-40-66-120-90-196-72 66 10 124 40 180 86Z"/><path d="M936 538 c-66-4-140 30-174 94 54-40 112-62 170-80Z"/>
+</g>
+<rect y="700" width="1200" height="200" fill="#7FC2F9"/>
+<path d="M0 760 C300 730 700 760 1200 720 V900 H0Z" fill="#F6E3CC"/>
+<g>
+<path d="M170 420 h220 l20 330 H150Z" fill="#F0544C"/><path d="M225 420 c0-80 110-80 110 0" fill="none" stroke="#0A1A4A" stroke-width="12"/>
+<path d="M360 470 h200 l18 280 H342Z" fill="#0A1A4A"/><path d="M410 470 c0-70 100-70 100 0" fill="none" stroke="#F0544C" stroke-width="12"/>
+<rect x="400" y="560" width="120" height="30" fill="#FFFFFF" opacity=".9"/>
+<path d="M540 520 h170 l16 230 H524Z" fill="#FFFFFF"/><path d="M585 520 c0-60 80-60 80 0" fill="none" stroke="#0A1A4A" stroke-width="10"/>
+<path d="M556 600 h160" stroke="#7FC2F9" stroke-width="16"/>
+</g>
+<g transform="translate(700 600)">
+<rect x="0" y="30" width="230" height="150" rx="22" fill="#0A1A4A"/><rect x="30" y="10" width="70" height="34" rx="8" fill="#0A1A4A"/>
+<circle cx="115" cy="105" r="56" fill="#EEF5FB"/><circle cx="115" cy="105" r="38" fill="#2A4C8F"/><circle cx="102" cy="92" r="10" fill="#FFFFFF" opacity=".7"/>
+<circle cx="196" cy="58" r="9" fill="#F0544C"/>
+</g>
+<g transform="translate(90 250)" fill="none" stroke="#0A1A4A" stroke-width="10" stroke-linecap="round"><circle cx="40" cy="40" r="38" fill="#0A1A4A" fill-opacity=".85"/><circle cx="140" cy="40" r="38" fill="#0A1A4A" fill-opacity=".85"/><path d="M78 36 q22-18 24 0"/></g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Ilustración de un globo terráqueo con rutas de vuelo">
+<defs><radialGradient id="g" cx=".4" cy=".35"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#CFE6FB"/></radialGradient></defs>
+<rect width="800" height="1000" fill="#EEF5FB"/>
+<circle cx="400" cy="500" r="250" fill="url(#g)"/>
+<circle cx="400" cy="500" r="280" fill="none" stroke="#0A1A4A" stroke-width="8"/>
+<g fill="none" stroke="#7FC2F9" stroke-width="3"><ellipse cx="400" cy="500" rx="110" ry="250"/><ellipse cx="400" cy="500" rx="200" ry="250"/><path d="M150 500h500M170 390h460M170 610h460M220 300h360M220 700h360"/></g>
+<g fill="none" stroke="#F0544C" stroke-width="4" stroke-linecap="round" stroke-dasharray="3 12"><path d="M250 620 C300 420 460 360 560 400"/><path d="M300 380 C380 300 520 320 600 560"/></g>
+<g fill="#F0544C"><circle cx="250" cy="620" r="10"/><circle cx="560" cy="400" r="10"/><circle cx="600" cy="560" r="10"/><circle cx="300" cy="380" r="10"/></g>
+<path d="M130 740 C300 880 600 860 720 640" fill="none" stroke="#F0544C" stroke-width="10" stroke-linecap="round"/>
+<g transform="translate(700 250) rotate(-35)" fill="#0A1A4A"><path d="M0-8h60c10 0 16 4 16 8s-6 8-16 8H0Z"/><path d="M26-6 8-44h12l30 38Z"/><path d="M26 14 8 52h12l30-38Z"/><path d="M4-4-8-22h8l14 18Z"/></g>
+</svg>

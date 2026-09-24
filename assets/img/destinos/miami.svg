@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Ilustración de Miami al atardecer">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F7B9A6"/><stop offset=".45" stop-color="#FBD8C4"/><stop offset=".62" stop-color="#FDEBDD"/></linearGradient>
+<linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7FC2F9"/><stop offset="1" stop-color="#2F6FB5"/></linearGradient>
+<linearGradient id="sand" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F6E3CC"/><stop offset="1" stop-color="#EBCFAE"/></linearGradient>
+</defs>
+<rect width="800" height="1000" fill="url(#sky)"/>
+<circle cx="520" cy="470" r="150" fill="#F0544C" opacity=".92"/>
+<circle cx="520" cy="470" r="200" fill="#F0544C" opacity=".12"/>
+<g fill="#FFFFFF" opacity=".7"><rect x="80" y="455" width="90" height="170" rx="4"/><rect x="180" y="405" width="70" height="220" rx="4"/><rect x="620" y="430" width="80" height="195" rx="4"/><rect x="710" y="480" width="60" height="145" rx="4"/></g>
+<g fill="#F7C3B3"><rect x="92" y="480" width="66" height="6"/><rect x="92" y="505" width="66" height="6"/><rect x="92" y="530" width="66" height="6"/><rect x="190" y="430" width="50" height="6"/><rect x="190" y="455" width="50" height="6"/><rect x="190" y="480" width="50" height="6"/><rect x="632" y="455" width="56" height="6"/><rect x="632" y="480" width="56" height="6"/></g>
+<rect y="620" width="800" height="210" fill="url(#sea)"/>
+<g stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity=".55" fill="none"><path d="M60 670h120M300 700h160M560 660h140M120 750h180M480 770h200"/></g>
+<path d="M0 820 C200 790 520 800 800 780 V1000 H0Z" fill="url(#sand)"/>
+<g fill="#0A1A4A">
+<path d="M176 1000 C178 880 196 760 236 640 l14 4 C214 760 200 880 204 1000Z"/>
+<path d="M243 640 c-60-30-140-20-190 20 60-10 120-8 170 10Z"/><path d="M243 640 c-20-60-80-100-150-100 50 24 96 60 130 104Z"/><path d="M243 640 c30-60 100-86 170-70-56 8-110 36-150 76Z"/><path d="M243 640 c60-10 130 20 164 76-50-34-104-50-160-62Z"/><path d="M243 640 c-10 50-50 100-100 120 34-34 60-80 84-124Z"/>
+<path d="M622 1000 C616 900 600 800 566 710 l12-5 C612 796 632 900 640 1000Z"/>
+<path d="M570 708 c50-30 120-24 160 12-50-8-100-8-150 6Z"/><path d="M570 708 c14-52 64-86 124-88-42 20-80 52-110 94Z"/><path d="M570 708 c-30-50-90-70-150-56 50 8 96 30 136 64Z"/><path d="M570 708 c-50-4-110 24-136 72 40-30 86-46 132-58Z"/>
+</g>
+<g fill="none" stroke="#0A1A4A" stroke-width="3" stroke-linecap="round" opacity=".6"><path d="M420 330 q14-12 28 0 q14-12 28 0"/><path d="M480 290 q10-9 20 0 q10-9 20 0"/></g>
+</svg>

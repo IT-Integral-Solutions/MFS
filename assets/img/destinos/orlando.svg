@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Ilustración de Orlando de noche con fuegos artificiales">
+<defs>
+<linearGradient id="n" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#00133B"/><stop offset=".7" stop-color="#15306E"/><stop offset="1" stop-color="#2A4C8F"/></linearGradient>
+<radialGradient id="g1"><stop offset="0" stop-color="#FFD9A8" stop-opacity=".9"/><stop offset="1" stop-color="#FFD9A8" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="800" height="1000" fill="url(#n)"/>
+<g fill="#FFFFFF"><circle cx="90" cy="120" r="2"/><circle cx="210" cy="70" r="1.6"/><circle cx="330" cy="150" r="2.2"/><circle cx="700" cy="90" r="2"/><circle cx="610" cy="200" r="1.5"/><circle cx="740" cy="300" r="2"/><circle cx="60" cy="330" r="1.6"/><circle cx="450" cy="60" r="1.8"/></g>
+<circle cx="250" cy="300" r="140" fill="url(#g1)" opacity=".35"/>
+<g stroke-linecap="round" stroke-width="5" fill="none">
+<g stroke="#F0544C" transform="translate(250 300)"><path d="M0-30V-110M0 30V110M-30 0H-110M30 0H110M21-21L78-78M-21 21L-78 78M21 21L78 78M-21-21L-78-78"/></g>
+<g stroke="#7FC2F9" transform="translate(560 220)"><path d="M0-24V-84M0 24V84M-24 0H-84M24 0H84M17-17L60-60M-17 17L-60 60M17 17L60 60M-17-17L-60-60"/></g>
+<g stroke="#FFD9A8" transform="translate(470 420) scale(.7)"><path d="M0-24V-84M0 24V84M-24 0H-84M24 0H84M17-17L60-60M-17 17L-60 60M17 17L60 60M-17-17L-60-60"/></g>
+</g>
+<g fill="#F0544C"><circle cx="250" cy="170" r="6"/><circle cx="250" cy="430" r="6"/><circle cx="120" cy="300" r="6"/><circle cx="380" cy="300" r="6"/></g>
+<g fill="#7FC2F9"><circle cx="560" cy="126" r="5"/><circle cx="654" cy="220" r="5"/><circle cx="466" cy="220" r="5"/></g>
+<path d="M0 760 C120 700 220 560 330 560 S520 720 800 640 V1000 H0Z" fill="#0A1A4A"/>
+<g fill="none" stroke="#7FC2F9" stroke-width="6" stroke-linecap="round" opacity=".9">
+<path d="M-10 800 C120 780 180 640 260 600 C340 560 420 620 420 700 C420 780 340 800 300 760 C260 720 300 640 380 640 C500 640 560 760 820 720"/>
+</g>
+<g stroke="#7FC2F9" stroke-width="3" opacity=".45"><path d="M80 790V1000M160 740V1000M240 610V1000M420 700V1000M520 690V1000M640 720V1000M740 715V1000"/></g>
+<path d="M0 880 C200 860 600 880 800 860 V1000 H0Z" fill="#00133B"/>
+</svg>
