@@ -14,7 +14,7 @@ window.MFS_CONFIG = Object.freeze({
     formUrl: "http://tass.itintegraltech.com/public/mfs-travel-design/datos",
     // WhatsApp (solo botón flotante). Formato internacional sin "+", espacios ni guiones
     whatsapp: "549116953819",
-    instagram: "de.usa.a.vos"
+    instagram: "mfs.travel"
   },
 
   // Mensaje precargado del botón flotante de WhatsApp
