@@ -5,18 +5,19 @@ Sitio estático (HTML + CSS + JS, sin dependencias ni build) listo para Cloudfla
 ## Estructura
 
 ```
-index.html               Landing principal
-miami-experience.html    Página del producto principal
+index.html               Landing principal (Nosotros, Viajes a medida, Viajes grupales, Contacto)
+viajes-grupales.html     Salidas grupales: Miami Experience y Orlando en grupo
 404.html                 Página de error (Cloudflare la usa automáticamente)
 _headers                 Cabeceras de seguridad y caché para Cloudflare
+_redirects               Redirección 301 de la vieja /miami-experience a /viajes-grupales
 robots.txt · site.webmanifest · favicon.ico
 css/
   fonts.css              @font-face de las tipografías locales
   variables.css          Colores, tipografías y medidas de la marca
   styles.css             Estilos del sitio
 js/
-  config.js              DATOS EDITABLES: WhatsApp, Instagram, mensajes, créditos, dominio
-  main.js                Comportamiento (menú, animaciones, formulario → WhatsApp)
+  config.js              DATOS EDITABLES: formulario TASS, WhatsApp, Instagram, créditos, dominio
+  main.js                Comportamiento (menú, animaciones, enlaces de contacto)
 assets/
   fonts/                 Playfair Display + Montserrat (woff2)
   icons/sprite.svg       Íconos
@@ -28,7 +29,11 @@ assets/
 
 ## Cambiar datos de contacto
 
-Todo se edita en `js/config.js`: número de WhatsApp, cómo se muestra el teléfono, usuario de Instagram, mensajes precargados y el link de créditos.
+Todo se edita en `js/config.js`:
+
+- `contact.formUrl`: formulario público de TASS. Es el destino de todos los botones de contacto (menú, portada, destinos, viajes grupales, sección Contacto y footer).
+- `contact.whatsapp` y `messages.default`: solo los usa el botón flotante de WhatsApp.
+- `contact.instagram` y `credits`: Instagram y link de créditos.
 
 ## Reemplazar imágenes por fotos reales
 
@@ -39,4 +44,3 @@ Guardar la foto en la carpeta correspondiente de `assets/img/` y actualizar la r
 1. Cloudflare → Workers & Pages → Create → Pages → subir esta carpeta (o conectar el repositorio).
 2. Build command: *(vacío)* · Output directory: `/`
 3. Conectar el dominio y completar `brand.siteUrl` en `js/config.js`.
-# MFS

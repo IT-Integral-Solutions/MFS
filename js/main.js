@@ -28,12 +28,15 @@
       el.href = buildWhatsappUrl(messages[key] || messages.default);
     });
 
+    document.querySelectorAll('[data-contact="form"]').forEach((el) => {
+      el.href = contact.formUrl;
+    });
+
     document.querySelectorAll('[data-contact="instagram"]').forEach((el) => {
       el.href = buildInstagramUrl();
     });
 
     const texts = {
-      phone: contact.phoneDisplay,
       instagram: `@${contact.instagram}`
     };
     document.querySelectorAll("[data-contact-text]").forEach((el) => {
@@ -129,37 +132,6 @@
     });
   }
 
-  /* ---------- Formulario → WhatsApp ---------- */
-  function initTripForm() {
-    const form = document.querySelector("[data-trip-form]");
-    if (!form) return;
-    const error = form.querySelector("[data-form-error]");
-
-    form.addEventListener("submit", (e) => {
-      e.preventDefault();
-      const f = form.elements;
-      const required = [f.nombre, f.destino];
-      let valid = true;
-      required.forEach((field) => {
-        const ok = field.value.trim() !== "";
-        field.classList.toggle("is-invalid", !ok);
-        if (!ok) valid = false;
-      });
-      error.hidden = valid;
-      if (!valid) return;
-
-      const lines = [
-        `¡Hola! Soy ${f.nombre.value.trim()}.`,
-        `Quiero diseñar un viaje a: ${f.destino.value}.`
-      ];
-      if (f.fecha.value.trim()) lines.push(`Fecha aproximada: ${f.fecha.value.trim()}.`);
-      if (f.viajeros.value.trim()) lines.push(`Viajeros: ${f.viajeros.value.trim()}.`);
-      if (f.mensaje.value.trim()) lines.push(f.mensaje.value.trim());
-
-      window.open(buildWhatsappUrl(lines.join("\n")), "_blank", "noopener");
-    });
-  }
-
   /* ---------- Página actual en el menú ---------- */
   function markCurrentPage() {
     // Cloudflare Pages sirve URLs sin ".html", por eso se normaliza
@@ -176,6 +148,5 @@
   initHeader();
   initMobileMenu();
   initReveal();
-  initTripForm();
   markCurrentPage();
 })();
