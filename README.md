@@ -44,3 +44,7 @@ Guardar la foto en la carpeta correspondiente de `assets/img/` y actualizar la r
 1. Cloudflare → Workers & Pages → Create → Pages → subir esta carpeta (o conectar el repositorio).
 2. Build command: *(vacío)* · Output directory: `/`
 3. Conectar el dominio y completar `brand.siteUrl` en `js/config.js`.
+
+## Caché
+
+CSS y JS se cargan con `?v=N` (ej.: `css/styles.css?v=2`). Si se modifica un CSS o JS, subir ese número en los HTML para que los navegadores tomen la versión nueva al instante.
