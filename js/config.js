@@ -13,7 +13,7 @@ window.MFS_CONFIG = Object.freeze({
     // Formulario público de TASS: destino de todos los botones de contacto
     formUrl: "http://tass.itintegraltech.com/public/mfs-travel-design/datos",
     // WhatsApp (solo botón flotante). Formato internacional sin "+", espacios ni guiones
-    whatsapp: "549116953819",
+    whatsapp: "5493412523325",
     instagram: "mfs.travel"
   },
 
