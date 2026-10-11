@@ -22,12 +22,12 @@
 
   <link rel="preload" href="assets/fonts/playfair-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/montserrat-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="css/fonts.css?v=7">
-  <link rel="stylesheet" href="css/variables.css?v=7">
-  <link rel="stylesheet" href="css/styles.css?v=7">
+  <link rel="stylesheet" href="css/fonts.css?v=8">
+  <link rel="stylesheet" href="css/variables.css?v=8">
+  <link rel="stylesheet" href="css/styles.css?v=8">
 
-  <script src="js/config.js?v=7" defer></script>
-  <script src="js/main.js?v=7" defer></script>
+  <script src="js/config.js?v=8" defer></script>
+  <script src="js/main.js?v=8" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#contenido">Saltar al contenido</a>
@@ -92,7 +92,10 @@
 
         <div class="hero__art" aria-hidden="true">
           <figure class="postcard postcard--a">
-            <img src="assets/img/destinos/miami.svg" alt="" width="800" height="1000">
+            <picture>
+              <source srcset="assets/img/destinos/miami-atardecer.webp" type="image/webp">
+              <img src="assets/img/destinos/miami-atardecer.jpg" alt="" width="900" height="1200">
+            </picture>
             <figcaption>Miami</figcaption>
           </figure>
           <figure class="postcard postcard--b">
@@ -100,7 +103,10 @@
             <figcaption>Nueva York</figcaption>
           </figure>
           <figure class="postcard postcard--c">
-            <img src="assets/img/destinos/orlando.svg?v=2" alt="" width="800" height="1000">
+            <picture>
+              <source srcset="assets/img/destinos/orlando-citywalk.webp" type="image/webp">
+              <img src="assets/img/destinos/orlando-citywalk.jpg" alt="" width="900" height="1200">
+            </picture>
             <figcaption>Orlando</figcaption>
           </figure>
           <svg class="hero__flight" viewBox="0 0 400 200" preserveAspectRatio="none"><path d="M10 180 C120 40 280 20 390 60"/></svg>
@@ -183,14 +189,20 @@
 
         <div class="destinations__grid">
           <a class="destination reveal" data-contact="form" href="#contacto" target="_blank" rel="noopener">
-            <img src="assets/img/destinos/miami.svg" alt="Ilustración de Miami" width="800" height="1000" loading="lazy">
+            <picture>
+              <source srcset="assets/img/destinos/miami-playa.webp" type="image/webp">
+              <img src="assets/img/destinos/miami-playa.jpg" alt="Mar turquesa en una playa de Florida" width="900" height="1200" loading="lazy">
+            </picture>
             <div class="destination__body">
               <h3>Miami</h3>
               <p>Playa, shopping y gastronomía</p>
             </div>
           </a>
           <a class="destination reveal" data-contact="form" href="#contacto" target="_blank" rel="noopener">
-            <img src="assets/img/destinos/orlando.svg?v=2" alt="Ilustración de Orlando" width="800" height="1000" loading="lazy">
+            <picture>
+              <source srcset="assets/img/destinos/orlando-resort.webp" type="image/webp">
+              <img src="assets/img/destinos/orlando-resort.jpg" alt="Vista aérea de un resort con piletas y palmeras en Orlando" width="900" height="1200" loading="lazy">
+            </picture>
             <div class="destination__body">
               <h3>Orlando</h3>
               <p>Disney, Universal y parques</p>
@@ -204,7 +216,10 @@
             </div>
           </a>
           <a class="destination reveal" data-contact="form" href="#contacto" target="_blank" rel="noopener">
-            <img src="assets/img/destinos/otros-destinos.svg" alt="Ilustración de un globo terráqueo" width="800" height="1000" loading="lazy">
+            <picture>
+              <source srcset="assets/img/destinos/vuelo.webp" type="image/webp">
+              <img src="assets/img/destinos/vuelo.jpg" alt="Vista desde la ventanilla del avión sobre la costa de Florida" width="900" height="1200" loading="lazy">
+            </picture>
             <div class="destination__body">
               <h3>Otros destinos</h3>
               <p>Contanos adónde querés ir</p>
@@ -230,7 +245,10 @@
         <div class="groups__grid">
           <article class="group-card reveal">
             <a class="group-card__media" href="viajes-grupales.html#miami" tabindex="-1" aria-hidden="true">
-              <img src="assets/img/destinos/miami-experience.svg" alt="" width="1200" height="900" loading="lazy">
+              <picture>
+                <source srcset="assets/img/destinos/miami-shopping-card.webp" type="image/webp">
+                <img src="assets/img/destinos/miami-shopping-card.jpg" alt="" width="1200" height="750" loading="lazy">
+              </picture>
             </a>
             <div class="group-card__body">
               <span class="group-card__tag">Salida grupal · Miami · 7 días / 6 noches</span>

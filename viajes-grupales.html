@@ -22,12 +22,12 @@
 
   <link rel="preload" href="assets/fonts/playfair-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/montserrat-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="css/fonts.css?v=7">
-  <link rel="stylesheet" href="css/variables.css?v=7">
-  <link rel="stylesheet" href="css/styles.css?v=7">
+  <link rel="stylesheet" href="css/fonts.css?v=8">
+  <link rel="stylesheet" href="css/variables.css?v=8">
+  <link rel="stylesheet" href="css/styles.css?v=8">
 
-  <script src="js/config.js?v=7" defer></script>
-  <script src="js/main.js?v=7" defer></script>
+  <script src="js/config.js?v=8" defer></script>
+  <script src="js/main.js?v=8" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#contenido">Saltar al contenido</a>
@@ -90,7 +90,10 @@
           </div>
         </div>
         <div class="page-hero__media reveal">
-          <img src="assets/img/destinos/miami-experience.svg" alt="Ilustración de viaje grupal: shopping, fotografía y playa" width="1200" height="900">
+          <picture>
+            <source srcset="assets/img/grupales/grupo-universal.webp" type="image/webp">
+            <img src="assets/img/grupales/grupo-universal.jpg" alt="Grupo de viajeras en la entrada de Universal Orlando Resort" width="1200" height="1000">
+          </picture>
         </div>
       </div>
     </section>
@@ -142,6 +145,30 @@
           <li class="include reveal"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#i-group"></use></svg>Grupo reducido</li>
         </ul>
 
+
+        <div class="gallery gallery--trip">
+          <figure class="gallery__item reveal">
+            <picture>
+              <source srcset="assets/img/destinos/miami-playa.webp" type="image/webp">
+              <img src="assets/img/destinos/miami-playa.jpg" alt="Mar turquesa en una playa de Florida" width="900" height="1200" loading="lazy">
+            </picture>
+            <figcaption>Playa</figcaption>
+          </figure>
+          <figure class="gallery__item reveal">
+            <picture>
+              <source srcset="assets/img/destinos/miami-shopping.webp" type="image/webp">
+              <img src="assets/img/destinos/miami-shopping.jpg" alt="Vidriera de una tienda en un shopping de Miami" width="900" height="1200" loading="lazy">
+            </picture>
+            <figcaption>Shopping</figcaption>
+          </figure>
+          <figure class="gallery__item reveal">
+            <picture>
+              <source srcset="assets/img/destinos/miami-atardecer.webp" type="image/webp">
+              <img src="assets/img/destinos/miami-atardecer.jpg" alt="Costanera con palmeras al atardecer" width="900" height="1200" loading="lazy">
+            </picture>
+            <figcaption>Atardeceres</figcaption>
+          </figure>
+        </div>
 
         <div class="itinerary" aria-labelledby="itin-miami">
           <h3 class="subsection-title reveal" id="itin-miami">Itinerario día a día</h3>
@@ -249,6 +276,30 @@
         </div>
       </div>
       <div class="container">
+        <div class="gallery gallery--trip">
+          <figure class="gallery__item reveal">
+            <picture>
+              <source srcset="assets/img/destinos/orlando-citywalk.webp" type="image/webp">
+              <img src="assets/img/destinos/orlando-citywalk.jpg" alt="Universal CityWalk con el Hard Rock Cafe y una montaña rusa al fondo" width="900" height="1200" loading="lazy">
+            </picture>
+            <figcaption>Universal CityWalk</figcaption>
+          </figure>
+          <figure class="gallery__item reveal">
+            <picture>
+              <source srcset="assets/img/destinos/orlando-resort.webp" type="image/webp">
+              <img src="assets/img/destinos/orlando-resort.jpg" alt="Vista aérea de un resort con piletas y palmeras en Orlando" width="900" height="1200" loading="lazy">
+            </picture>
+            <figcaption>Hoteles con todo</figcaption>
+          </figure>
+          <figure class="gallery__item reveal">
+            <picture>
+              <source srcset="assets/img/destinos/orlando-pileta.webp" type="image/webp">
+              <img src="assets/img/destinos/orlando-pileta.jpg" alt="Pileta rodeada de palmeras en un resort de Orlando" width="900" height="1200" loading="lazy">
+            </picture>
+            <figcaption>Días de descanso</figcaption>
+          </figure>
+        </div>
+
         <div class="itinerary" aria-labelledby="itin-orlando">
           <h3 class="subsection-title reveal" id="itin-orlando">Itinerario día a día</h3>
           <ol class="itinerary__list">
