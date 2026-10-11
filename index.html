@@ -22,12 +22,12 @@
 
   <link rel="preload" href="assets/fonts/playfair-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/montserrat-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="css/fonts.css?v=4">
-  <link rel="stylesheet" href="css/variables.css?v=4">
-  <link rel="stylesheet" href="css/styles.css?v=4">
+  <link rel="stylesheet" href="css/fonts.css?v=5">
+  <link rel="stylesheet" href="css/variables.css?v=5">
+  <link rel="stylesheet" href="css/styles.css?v=5">
 
-  <script src="js/config.js?v=4" defer></script>
-  <script src="js/main.js?v=4" defer></script>
+  <script src="js/config.js?v=5" defer></script>
+  <script src="js/main.js?v=5" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#contenido">Saltar al contenido</a>
@@ -112,7 +112,10 @@
     <section class="section about" id="nosotros" aria-labelledby="about-title">
       <div class="container about__grid">
         <div class="about__media reveal">
-          <img src="assets/img/equipo/fer.svg" alt="Fer, fundadora de MFS Travel Design" width="600" height="750" loading="lazy">
+          <picture>
+            <source srcset="assets/img/equipo/fer.webp" type="image/webp">
+            <img class="about__photo" src="assets/img/equipo/fer.jpg" alt="Fer, fundadora de MFS Travel Design, en Miami" width="920" height="1150" loading="lazy">
+          </picture>
           <div class="about__badge">
             <img src="assets/img/logos/mfs-isologo.webp" alt="" width="480" height="446" loading="lazy">
           </div>
