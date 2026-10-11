@@ -263,6 +263,22 @@ em{font-style:italic}
 .itinerary__day p{margin:0;font-size:.93rem;line-height:1.55}
 .itinerary__note{margin:1.25rem 0 0;font-size:.85rem;font-style:italic;color:var(--ink-soft)}
 
+
+/* ---------- Galería gastronomía ---------- */
+.gastro{background:var(--sand-50);border-top:1px solid var(--line)}
+.gallery{display:grid;gap:1.25rem;grid-template-columns:repeat(3,1fr)}
+.gallery__item{position:relative;margin:0;overflow:hidden;border-radius:var(--radius-lg);box-shadow:var(--shadow-sm);aspect-ratio:3/4}
+.gallery__item picture,.gallery__item img{display:block;width:100%;height:100%}
+.gallery__item img{object-fit:cover;transition:transform .8s var(--ease)}
+.gallery__item:hover img{transform:scale(1.04)}
+.gallery__item figcaption{position:absolute;left:0;right:0;bottom:0;padding:3rem 1.4rem 1.2rem;background:linear-gradient(to top,rgba(0,19,59,.8),transparent);font-family:var(--font-serif);font-style:italic;font-size:1.25rem;color:var(--white)}
+@media (max-width:760px){
+  .gallery{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:78%;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:.5rem;margin-inline:calc(var(--gutter)*-1);padding-inline:var(--gutter);scrollbar-width:none}
+  .gallery::-webkit-scrollbar{display:none}
+  .gallery__item{scroll-snap-align:center}
+}
+.include__link{display:flex;align-items:center;gap:inherit;color:inherit;width:100%}
+
 /* ---------- 404 ---------- */
 .notfound{min-height:100vh;display:grid;place-items:center;text-align:center;padding:var(--gutter);background:var(--mist-100)}
 .notfound img{width:180px;margin:0 auto 2rem}

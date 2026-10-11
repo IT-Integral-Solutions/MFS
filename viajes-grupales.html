@@ -22,12 +22,12 @@
 
   <link rel="preload" href="assets/fonts/playfair-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/montserrat-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="css/fonts.css?v=6">
-  <link rel="stylesheet" href="css/variables.css?v=6">
-  <link rel="stylesheet" href="css/styles.css?v=6">
+  <link rel="stylesheet" href="css/fonts.css?v=7">
+  <link rel="stylesheet" href="css/variables.css?v=7">
+  <link rel="stylesheet" href="css/styles.css?v=7">
 
-  <script src="js/config.js?v=6" defer></script>
-  <script src="js/main.js?v=6" defer></script>
+  <script src="js/config.js?v=7" defer></script>
+  <script src="js/main.js?v=7" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#contenido">Saltar al contenido</a>
@@ -135,7 +135,7 @@
           <li class="include reveal"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#i-plane"></use></svg>Viaje</li>
           <li class="include reveal"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#i-bag"></use></svg>Shopping</li>
           <li class="include reveal"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#i-style"></use></svg>Estilo</li>
-          <li class="include reveal"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#i-dish"></use></svg>Gastronomía</li>
+          <li class="include reveal"><a class="include__link" href="#gastronomia"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#i-dish"></use></svg>Gastronomía</a></li>
           <li class="include reveal"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#i-sun"></use></svg>Playa</li>
           <li class="include reveal"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#i-heart"></use></svg>Momentos de disfrute</li>
           <li class="include reveal"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#i-camera"></use></svg>Fotografía</li>
@@ -314,6 +314,42 @@
             </li>
           </ol>
           <p class="itinerary__note reveal">Itinerario orientativo: puede ajustarse según la fecha de cada salida.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GASTRONOMÍA ============ -->
+    <section class="section gastro" id="gastronomia" aria-labelledby="gastro-title">
+      <div class="container">
+        <header class="section-head section-head--split">
+          <div>
+            <p class="eyebrow eyebrow--coral reveal">Gastronomía</p>
+            <h2 class="section-title reveal" id="gastro-title">La mesa también es <em>parte del viaje</em></h2>
+          </div>
+          <p class="lead reveal">Cenas de bienvenida, cenas especiales y de despedida, meriendas y lugares elegidos para disfrutar cada destino también desde sus sabores.</p>
+        </header>
+        <div class="gallery">
+          <figure class="gallery__item reveal">
+            <picture>
+              <source srcset="assets/img/gastronomia/gastro-antojitos.webp" type="image/webp">
+              <img src="assets/img/gastronomia/gastro-antojitos.jpg" alt="Fachada iluminada de un restaurante de comida mexicana de noche" width="900" height="1200" loading="lazy">
+            </picture>
+            <figcaption>Noches para compartir</figcaption>
+          </figure>
+          <figure class="gallery__item reveal">
+            <picture>
+              <source srcset="assets/img/gastronomia/gastro-mesa.webp" type="image/webp">
+              <img src="assets/img/gastronomia/gastro-mesa.jpg" alt="Plato de ñoquis en salsa blanca con tragos sobre una mesa" width="900" height="1200" loading="lazy">
+            </picture>
+            <figcaption>Cenas especiales</figcaption>
+          </figure>
+          <figure class="gallery__item reveal">
+            <picture>
+              <source srcset="assets/img/gastronomia/gastro-manolo.webp" type="image/webp">
+              <img src="assets/img/gastronomia/gastro-manolo.jpg" alt="Viajera frente a un restaurante iluminado de noche en Miami" width="900" height="1200" loading="lazy">
+            </picture>
+            <figcaption>Sabores de cada destino</figcaption>
+          </figure>
         </div>
       </div>
     </section>
